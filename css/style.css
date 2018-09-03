@@ -1,0 +1,1104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-04-01, 21:28:33
+    Author     : Grzegorz
+*/
+@media screen and (min-width:1200px)
+{
+    body
+    {  
+        margin-left: auto;
+        margin-right: auto;
+        background: #000000;
+
+
+        ffont-family: 'Roboto', sans-serif;
+
+    }#contener
+    {
+        text-align: center;
+        width: 100%;
+        height: 450px;
+        background-color: #000000;
+    }
+    #nav1
+    {
+        /*   border-radius: 15px;*/
+        width: 90%;
+        height: 160px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 00px;
+        color: #f0f0f0;    
+        background: #666666; 
+        /*   border-width: 7px;
+        /*   border-style: solid;
+        /*   border-color: #006cff;*/
+        /* border-radius: 15px;*/
+        /*   background: -webkit-linear-gradient(silver, black); /* For Safari 5.1 to 6.0 */
+        /*   background: -o-linear-gradient(silver, black); /* For Opera 11.1 to 12.0 */
+        /*   background: -moz-linear-gradient(silver,black); /* For Firefox 3.6 to 15 */
+        /*   background: linear-gradient(silver, black); /*  /* Standard syntax (must be last) */
+
+    }
+    #nav2
+    {
+        /*   border-radius: 15px;*/
+        width: 90%;
+        height: 450px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 00px;
+        margin-top: 00px;
+        padding: 0px;
+        color: #f0f0f0;    
+        background: #666666; 
+    }
+    #name1
+    {
+        float: left;
+        text-align: left;
+        width: 60%;
+        margin-top: 00px;
+        margin-left: 00px;
+        letter-spacing: 10px;               
+        font-size: 40px;
+        color: #ffffff; 
+        clear: both;
+    }
+    #clock
+    {
+        float: right;
+        text-align: center;
+        margin-top: 00p;
+        margin-left: 30px;
+        width: 30%;
+        letter-spacing: 10px;               
+        font-size: 40px;
+        color: #ffffff;        
+        /*  border-style: solid;
+         border-color: #2c9b09;*/
+    }
+    #box1
+    {        
+        float: left;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0 0 0 0px;
+        color: #fff;
+        background-color: #000000;
+        display: block;        
+        width: 35%;
+        height: 450px;
+
+    }
+
+    #box3
+    {
+        background-color: #2c9b09;
+        float: left;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0 0 0 0;
+        display: block;   
+        font-size: 20px;
+        width: 65%;
+        height: 450px;
+        /* border-style: solid;*/
+        /*border-color: #2c9b09;*/
+        /* border-radius: 15px;*/
+    }
+    .buttonBox1
+    {
+        float: left;
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+        font-size: 30px;
+        letter-spacing: 7px;        
+        text-align: center; 
+        text-decoration: none;
+
+        background-color: #003399;
+        width:40%;
+        height: 20%;        
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+    }
+    .buttonBox2
+    {
+        float: left;
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+        font-size: 30px;
+        letter-spacing: 7px;
+        text-align: center;  
+        width:40%;
+        background-color: #cc0000;
+        height: 20%;
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+    }.buttonBox3
+    {
+        float: left;
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+        font-size: 30px;
+        letter-spacing: 7px;
+        text-align: center;  
+        width:40%;
+        background-color: #ffcc00;
+        height: 20%;
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+    }
+    .buttonBox4
+    {
+        float: left;
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+        font-size: 30px;
+        letter-spacing: 7px;
+        text-align: center;  
+        width:40%;
+        background-color: #00cccc;
+        height: 20%;
+
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+
+    }
+    .buttonBox5
+    {
+        float: left;
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 30px 0 30px 0;
+        font-size: 25px;
+        letter-spacing: 7px;
+        text-align: center;  
+        width:84%;
+        background-color: #ff6600;
+        height: 20%;
+        font-family: 'Jim Nightshade', cursive;
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+
+    }
+    a
+    {
+        text-decoration: none;
+    }
+    a>h5
+    { 
+        color: #fff;
+        text-align: center;
+        margin: 0px 0 0px 0;
+        padding: 40px 0px 0 0px;
+        display: block;
+        width:100%;
+        height: 90%;   
+
+    }
+    .powrot
+    {
+        width:100%;
+        height: 90%; 
+        margin: 8px 10px 10px -50px;
+        padding: 50px 50px 50px 0px;
+
+    }
+    .buttonBox1:hover
+    {
+        background-color: #001177;
+    }
+    .buttonBox2:hover
+    {
+        background-color: #aa0000;
+    }
+    .buttonBox3:hover
+    {
+        background-color: #ddaa00;
+    }
+    .buttonBox4:hover
+    {
+        background-color: #00aaaa;
+    }
+    .tabeleClass
+    {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 20px;
+       
+        border-collapse: collapse;
+        width: 100%;
+
+    }
+    .tabeleClass.td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        background-color: yellow;
+    }
+    .tabeleClass.th {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+         background-color: pink;
+    }
+
+    .tabeleClass.tr:hover {background-color:#f5f5f5;}
+
+    .footerClass
+    {
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 1px 0px 10px 0;
+        width: 90%;
+        letter-spacing: 5px;
+        font-size: 22px;
+        text-align: center;
+        color: white;
+        background: #0000cc;
+        height: 69px;
+
+
+    }
+}
+@media screen and (min-width:980px) and (max-width:1200px)
+{
+    body
+    {  
+        margin-left: auto;
+        margin-right: auto;
+        background: #000000;
+
+
+        font-family: 'Oswald', sans-serif;
+
+    }#contener
+    {
+        text-align: center;
+        width: 100%;
+        height: 450px;
+        background-color: #000000;
+    }
+    #nav1
+    {
+        /*   border-radius: 15px;*/
+        width: 90%;
+        height: 160px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 00px;
+        color: #f0f0f0;    
+        background: #666666; 
+        /*   border-width: 7px;
+        /*   border-style: solid;
+        /*   border-color: #006cff;*/
+        /* border-radius: 15px;*/
+        /*   background: -webkit-linear-gradient(silver, black); /* For Safari 5.1 to 6.0 */
+        /*   background: -o-linear-gradient(silver, black); /* For Opera 11.1 to 12.0 */
+        /*   background: -moz-linear-gradient(silver,black); /* For Firefox 3.6 to 15 */
+        /*   background: linear-gradient(silver, black); /*  /* Standard syntax (must be last) */
+
+    }
+    #nav2
+    {
+        /*   border-radius: 15px;*/
+        width: 90%;
+        height: 450px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 00px;
+        margin-top: 00px;
+        padding: 0px;
+        color: #f0f0f0;    
+        background: #666666; 
+    }
+    #name1
+    {
+        float: left;
+        text-align: left;
+        width: 60%;
+        margin-top: 00px;
+        margin-left: 00px;
+        letter-spacing: 10px;               
+        font-size: 40px;
+        color: #ffffff; 
+        clear: both;
+    }
+    #clock
+    {
+        float: right;
+        text-align: center;
+        margin-top: 00p;
+        margin-left: 30px;
+        width: 30%;
+        letter-spacing: 10px;               
+        font-size: 40px;
+        color: #ffffff;        
+        /*  border-style: solid;
+         border-color: #2c9b09;*/
+    }
+    #box1
+    {        
+        float: left;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0 0 0 0px;
+        color: #fff;
+        background-color: #000000;
+        display: block;        
+        width: 35%;
+        height: 450px;
+
+    }
+
+    #box3
+    {
+        background-color: #2c9b09;
+        float: left;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0 0 0 0;
+        display: block;   
+        font-size: 25px;
+        width: 65%;
+        height: 450px;
+        /* border-style: solid;*/
+        /*border-color: #2c9b09;*/
+        /* border-radius: 15px;*/
+    }
+    .buttonBox1
+    {
+        float: left;
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+        font-size: 20px;
+        letter-spacing: 7px;        
+        text-align: center; 
+        text-decoration: none;
+
+        background-color: #003399;
+        width:40%;
+        height: 20%;        
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+    }
+    .buttonBox2
+    {
+        float: left;
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+        font-size: 20px;
+        letter-spacing: 7px;
+        text-align: center;  
+        width:40%;
+        background-color: #cc0000;
+        height: 20%;
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+    }.buttonBox3
+    {
+        float: left;
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+        font-size: 20px;
+        letter-spacing: 7px;
+        text-align: center;  
+        width:40%;
+        background-color: #ffcc00;
+        height: 20%;
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+    }
+    .buttonBox4
+    {
+        float: left;
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+        font-size: 20px;
+        letter-spacing: 7px;
+        text-align: center;  
+        width:40%;
+        background-color: #00cccc;
+        height: 20%;
+
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+
+    }
+    .buttonBox5
+    {
+        float: left;
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 50px 0;
+        font-size: 20px;
+        letter-spacing: 10px;
+        text-align: center;  
+        width:86%;
+        background-color: #ff6600;
+        height: 20%;
+        font-family: 'Jim Nightshade', cursive;
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+
+    }
+    a
+    {
+        text-decoration: none;
+    }
+    a>h5
+    { 
+        color: #fff;
+        text-align: center;
+        margin: 0px 0 0px 0;
+        padding: 40px 0px 0 0px;
+        display: block;
+        width:100%;
+        height: 90%;   
+
+    }
+    .powrot
+    {
+        width:100%;
+        height: 90%; 
+        margin: 8px 10px 10px 0px;
+        padding: 50px 50px 50px 0px;
+
+    }
+    .buttonBox1:hover
+    {
+        background-color: #001177;
+    }
+    .buttonBox2:hover
+    {
+        background-color: #aa0000;
+    }
+    .buttonBox3:hover
+    {
+        background-color: #ddaa00;
+    }
+    .buttonBox4:hover
+    {
+        background-color: #00aaaa;
+    }
+    .tabeleClass
+    {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 40px;
+
+    }
+    .footerClass
+    {
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 1px 0px 10px 0;
+        width: 90%;
+        letter-spacing: 5px;
+        font-size: 22px;
+        text-align: center;
+        color: white;
+        background: #0000cc;
+        height: 69px;
+
+
+    }
+}
+@media screen and (min-width:645px) and (max-width:980px)
+{
+    body
+    {  
+        margin-left: auto;
+        margin-right: auto;
+        background: #000000;
+
+
+
+
+    }#contener
+    {
+        text-align: center;
+        width: 100%;
+        height: 450px;
+        background-color: #000000;
+    }
+    #nav1
+    {
+        /*   border-radius: 15px;*/
+        width: 90%;
+        height: 160px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 00px;
+        color: #f0f0f0;    
+        background: #666666; 
+        /*   border-width: 7px;
+        /*   border-style: solid;
+        /*   border-color: #006cff;*/
+        /* border-radius: 15px;*/
+        /*   background: -webkit-linear-gradient(silver, black); /* For Safari 5.1 to 6.0 */
+        /*   background: -o-linear-gradient(silver, black); /* For Opera 11.1 to 12.0 */
+        /*   background: -moz-linear-gradient(silver,black); /* For Firefox 3.6 to 15 */
+        /*   background: linear-gradient(silver, black); /*  /* Standard syntax (must be last) */
+
+    }
+    #nav2
+    {
+        /*   border-radius: 15px;*/
+        width: 90%;
+        height: 450px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 00px;
+        margin-top: 00px;
+        padding: 0px;
+        color: #f0f0f0;    
+        background: #666666; 
+    }
+    #name1
+    {
+        float: left;
+        text-align: left;
+        width: 60%;
+        margin-top: 00px;
+        margin-left: 00px;
+        letter-spacing: 10px;               
+        font-size: 40px;
+        color: #ffffff; 
+        clear: both;
+    }
+    #clock
+    {
+        float: right;
+        text-align: center;
+        margin-top: 00p;
+        margin-left: 30px;
+        width: 30%;
+        letter-spacing: 10px;               
+        font-size: 40px;
+        color: #ffffff;        
+        /*  border-style: solid;
+         border-color: #2c9b09;*/
+    }
+    #box1
+    {        
+        float: left;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0 0 0 0px;
+        color: #fff;
+        background-color: #000000;
+        display: block;        
+        width: 35%;
+        height: 450px;
+
+    }
+
+    #box3
+    {
+        background-color: #2c9b09;
+        float: left;
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0 0 0 0;
+        display: block;   
+        font-size: 25px;
+        width: 65%;
+        height: 450px;
+        /* border-style: solid;*/
+        /*border-color: #2c9b09;*/
+        /* border-radius: 15px;*/
+    }
+    .buttonBox1
+    {
+
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+        font-size: 20px;
+        letter-spacing: 7px;        
+        text-align: center; 
+        text-decoration: none;
+
+        background-color: #003399;
+        width:90%;
+        height: 7%;        
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+    }
+    .buttonBox2
+    {
+
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+        font-size: 20px;
+        letter-spacing: 7px;
+        text-align: center;  
+        width:90%;
+        background-color: #cc0000;
+        height: 7%;
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+    }.buttonBox3
+    {
+
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+        font-size: 20px;
+        letter-spacing: 7px;
+        text-align: center;  
+        width:90%;
+        background-color: #ffcc00;
+        height: 7%;
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+    }
+    .buttonBox4
+    {
+
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+        font-size: 20px;
+        letter-spacing: 7px;
+        text-align: center;  
+        width:90%;
+        background-color: #00cccc;
+        height: 7%;
+
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+
+    }
+    .buttonBox5
+    {
+
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 50px 0;
+        font-size: 15px;
+        letter-spacing: 5px;
+        text-align: center;  
+        width:90%;
+        background-color: #ff6600;
+        height: 5%;
+        font-family: 'Jim Nightshade', cursive;
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+
+    }
+    a
+    {
+        text-decoration: none;
+    }
+    a>h5
+    { 
+        color: #fff;
+        text-align: center;
+        margin: 0px 0 0px 0;
+        padding: 20px 0px 0 0px;
+        display: block;
+        width:100%;
+        height: 90%;   
+
+    }
+    .powrot
+    {
+        width:100%;
+        height: 90%; 
+        margin: 8px 10px 10px 0px;
+        padding: 50px 50px 50px 0px;
+
+    }
+    .buttonBox1:hover
+    {
+        background-color: #001177;
+    }
+    .buttonBox2:hover
+    {
+        background-color: #aa0000;
+    }
+    .buttonBox3:hover
+    {
+        background-color: #ddaa00;
+    }
+    .buttonBox4:hover
+    {
+        background-color: #00aaaa;
+    }
+    .tabeleClass
+    {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .footerClass
+    {
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 1px 0px 10px 0;
+        width: 90%;
+        letter-spacing: 5px;
+        font-size: 22px;
+        text-align: center;
+        color: white;
+        background: #0000cc;
+        height: 69px;
+
+
+    }
+}
+@media screen and (max-width:645px)
+{
+    body
+    {  
+        margin-left: auto;
+        margin-right: auto;
+        background: #000000;
+        font-size: 15px;
+
+        /* font-family: 'Great Vibes', cursive;*/
+        /*  font-family: 'Press Start 2P', cursive;*/
+        font-family: 'Open Sans', sans-serif;
+
+    }#contener
+    {
+        text-align: center;
+        width: 100%;
+        height: 900px;
+        background-color: #000000;
+    }
+    #nav1
+    {
+        /*   border-radius: 15px;*/
+        width: 90%;
+        height: 120px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 00px;
+        color: #f0f0f0;    
+        background: #666666; 
+        /*   border-width: 7px;
+        /*   border-style: solid;
+        /*   border-color: #006cff;*/
+        /* border-radius: 15px;*/
+        /*   background: -webkit-linear-gradient(silver, black); /* For Safari 5.1 to 6.0 */
+        /*   background: -o-linear-gradient(silver, black); /* For Opera 11.1 to 12.0 */
+        /*   background: -moz-linear-gradient(silver,black); /* For Firefox 3.6 to 15 */
+        /*   background: linear-gradient(silver, black); /*  /* Standard syntax (must be last) */
+
+    }
+    #nav2
+    {
+        /*   border-radius: 15px;*/
+        width: 90%;
+        height: 900px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 00px;
+        margin-top: 00px;
+        padding: 0px;
+        color: #f0f0f0;    
+        /* background: #666666; */
+    }
+    #name1
+    {
+        float: left;
+        text-align: left;
+        width: 60%;
+        margin-top: 00px;
+        margin-left: 00px;
+        letter-spacing: 5px;               
+        font-size: 25px;
+        color: #ffffff; 
+        clear: both;
+    }
+    #clock
+    {
+        float: right;
+        text-align: center;
+        margin-top: 00p;
+        margin-left: 00px;
+        width: 30%;
+        letter-spacing: 1px;               
+        font-size: 18px;
+        color: #ffffff;        
+        /*  border-style: solid;
+         border-color: #2c9b09;*/
+    }
+    #box1
+    {        
+
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0 0 0 0px;
+        color: #fff;
+        background-color: #000000;
+        display: block;        
+        width: 100%;
+        height: 350px;
+
+    }
+
+    #box3
+    {
+        background-color:#2c9b09 ;
+
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0 0 0 0;
+        display: block;   
+        font-size: 25px;
+        width: 100%;
+        height: 515px;
+        /* border-style: solid;*/
+        /*border-color: #2c9b09;*/
+        /* border-radius: 15px;*/
+    }
+    .buttonBox1
+    {
+
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+
+        letter-spacing: 7px;        
+        text-align: center; 
+        text-decoration: none;
+
+        background-color: #003399;
+        width:100%;
+        height: 3%;        
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+    }
+    .buttonBox2
+    {
+
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+
+        letter-spacing: 7px;
+        text-align: center;  
+        width:100%;
+        background-color: #cc0000;
+        height: 3%;
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+    }.buttonBox3
+    {
+
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+
+        letter-spacing: 7px;
+        text-align: center;  
+        width:100%;
+        background-color: #ffcc00;
+        height: 3%;
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+    }
+    .buttonBox4
+    {
+
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 30px 0;
+
+        letter-spacing: 7px;
+        text-align: center;  
+        width:100%;
+        background-color: #00cccc;
+        height: 3%;
+
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+
+    }
+    .buttonBox5
+    {
+        overflow: hidden;
+        margin: 0px;
+        margin-top: 00px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        padding: 10px 0 50px 0;
+        font-size: 11px;
+        letter-spacing: 5px;
+        text-align: center; 
+
+        width:100%;
+        background-color: #ff6600;
+        height: 2%;
+        font-family: 'Jim Nightshade', cursive;
+        /*    border-style: solid;
+            border-color: #2c9b09;*/
+        /*   border-radius: 15px;*/
+
+    }
+    a
+    {
+        text-decoration: none;
+    }
+    a>h5
+    { 
+        color: #fff;
+        text-align: center;
+        margin: 0px 0 0px 0;
+        padding: 20px 0px 0 0px;
+        display: block;
+        width:100%;
+        height: 90%;   
+
+    }
+    .powrot
+    {
+        width:100%;
+        height: 90%; 
+        margin: 8px 10px 10px 0px;
+        padding: 10px 10px 10px 0px;
+
+    }
+    .buttonBox1:hover
+    {
+        background-color: #001177;
+    }
+    .buttonBox2:hover
+    {
+        background-color: #aa0000;
+    }
+    .buttonBox3:hover
+    {
+        background-color: #ddaa00;
+    }
+    .buttonBox4:hover
+    {
+        background-color: #00aaaa;
+    }
+    .tabeleClass
+    {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .footerClass
+    {
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 00px;
+        margin-bottom: 00px;
+        padding: 0px 0px 00px 0;
+        width: 90%;
+        letter-spacing: 5px;
+
+        text-align: center;
+        color: white;
+        background: #0000cc;
+        height: 69px;
+
+
+    }
+}
+
